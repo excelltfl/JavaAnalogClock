@@ -15,4 +15,4 @@ const date = new Date();
     hourHand.style.transform = `rotate(${hourDeg}deg)`;
 }
 setInterval(clock, 1000);
-// clock();
+clock();
