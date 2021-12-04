@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  background-color: #202020;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock-outer {
+  position: relative;
+  width: 50vw;
+  height: 50vw;
+  background-color: rgba(32, 32, 32, 0.5);
+  border-radius: 50%;
+  border: 1vw solid #202020;
+  box-shadow: 0.1vw 0.1vw 0.1vw 0.2vw rgba(32, 32, 32, 0.5), inset -0.1vw -0.1vw 0.1vw 0.2vw rgba(48, 48, 48, 0.5), inset 0.1vw 0.1vw 0.1vw 0.2vw rgba(32, 32, 32, 0.5), -0.1vw -0.1vw 0.1vw 0.2vw rgba(48, 48, 48, 0.5);
+}
+
+.out {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: #f3138e;
+  font-size: 4vw;
+  width: 2%;
+  height: 10%;
+  background-color: #e7f711;
+}
+
+.out1, .out4, .out7, .out10 {
+  background-color: #19acd13b;
+}
+
+.out.out7 {
+  transform: rotate(0deg);
+}
+
+.out1 {
+  top: 0.5%;
+  right: 49%;
+  transform: rotate(0deg);
+}
+
+.out2 {
+  top: 6.5%;
+  right: 26.5%;
+  transform: rotate(30deg);
+}
+
+.out3 {
+  top: 23%;
+  right: 10.5%;
+  transform: rotate(60deg);
+}
+
+.out4 {
+  top: 45%;
+  right: 4.5%;
+  transform: rotate(90deg);
+}
+
+.out5 {
+  top: 67%;
+  right: 10.5%;
+  transform: rotate(120deg);
+}
+
+.out6 {
+  top: 83.5%;
+  right: 26.5%;
+  transform: rotate(150deg);
+}
+
+.out7 {
+  bottom: 0.5%;
+  left: 49%;
+  transform: rotate(180deg);
+}
+
+.out8 {
+  bottom: 6.5%;
+  left: 26.5%;
+  transform: rotate(210deg);
+}
+
+.out9 {
+  bottom: 23%;
+  left: 10.5%;
+  transform: rotate(240deg);
+}
+
+.out10 {
+  bottom: 45%;
+  left: 4.5%;
+  transform: rotate(270deg);
+}
+
+.out11 {
+  bottom: 67%;
+  left: 10.5%;
+  transform: rotate(300deg);
+}
+
+.out12 {
+  bottom: 83.5%;
+  left: 26.5%;
+  transform: rotate(330deg);
+}
+
+.hand {
+  position: absolute;
+  top: 49.5%;
+  right: 50%;
+  border-radius: 2rem;
+  transform-origin: right;
+  transform: rotate(90deg);
+}
+
+.hour-hand {
+  background-color: lime;
+  width: 12%;
+  height: 1%;
+  z-index: 1;
+}
+
+.min-hand {
+  background-color: aqua;
+  width: 16%;
+  height: 0.5%;
+  z-index: 2;
+}
+
+.sec-hand {
+  background-color: fuchsia;
+  width: 21%;
+  height: 0.25%;
+  z-index: 3;
+}
+
+.clock-inner {
+  background-color: rgba(114, 111, 111, 0.993);
+  position: absolute;
+  border-radius: 50%;
+  width: 2%;
+  height: 2%;
+  z-index: 4;
+}
+
+/*# sourceMappingURL=style.css.map */
