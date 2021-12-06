@@ -32,8 +32,8 @@ body {
     position: absolute;
     color: rgb(243, 19, 142);
     font-size: 4vw;
-    width: 2%;
-    height: 10%;
+    width: 1vw;
+    height: 5vw;
     background-color: #e7f711;
 }
 .out1, .out4, .out7, .out10 {
@@ -42,7 +42,7 @@ body {
 .out.out7 {
     transform: rotate(0deg);
 }
-$v1: 0.5%, 49%;
+$v1: 0.25%, 49%;
 $v2: 6.5%, 26.5%;
 $v3: 23%, 10.5%;
 $v4: 45%, 4.5%;

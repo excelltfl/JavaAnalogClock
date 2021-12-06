@@ -33,8 +33,8 @@ body {
   position: absolute;
   color: #f3138e;
   font-size: 4vw;
-  width: 2%;
-  height: 10%;
+  width: 1vw;
+  height: 5vw;
   background-color: #e7f711;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .out1 {
-  top: 0.5%;
+  top: 0.25%;
   right: 49%;
   transform: rotate(0deg);
 }
@@ -83,7 +83,7 @@ body {
 }
 
 .out7 {
-  bottom: 0.5%;
+  bottom: 0.25%;
   left: 49%;
   transform: rotate(180deg);
 }
